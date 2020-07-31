@@ -76,7 +76,6 @@ polya <- function(n, epsilon) {
 
   # Convert epsilon to alpha 
   alpha <- 1/(exp(epsilon))
-  beta <- 
   # Draw from gamma distribution 
   lambda <- customGamma(1/n, (1-alpha)/alpha) 
   # Return one draw from pois(lambda)
